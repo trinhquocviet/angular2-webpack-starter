@@ -7,8 +7,8 @@
     "webpack",
     "typescript"
   ],
-  "author": "Patrick Stapleton <patrick@angularclass.com>",
-  "homepage": "https://github.com/angularclass/angular2-webpack-starter",
+  "author": "Viet Trinh <viettrinh271291@gmail.com>",
+  "homepage": "https://github.com/trinhquocviet/angular2-webpack-starter",
   "license": "MIT",
   "scripts": {
     "build:dev": "webpack --config config/webpack.dev.js --progress --profile",
@@ -75,18 +75,18 @@
     "core-js": "^2.4.1",
     "http-server": "^0.9.0",
     "ie-shim": "^0.1.0",
-    "rxjs": "5.0.0-beta.12",
+    "rxjs": "5.0.0-rc.4",
     "zone.js": "~0.6.26"
   },
   "devDependencies": {
     "@types/hammerjs": "^2.0.33",
     "@types/jasmine": "^2.2.34",
     "@types/node": "^6.0.38",
-    "@types/protractor": "^1.5.20",
-    "@types/selenium-webdriver": "2.44.29",
-    "@types/source-map": "^0.1.27",
+    "@types/protractor": "^4.0.0",
+    "@types/selenium-webdriver": "2.53.35",
+    "@types/source-map": "^0.5.0",
     "@types/uglify-js": "^2.0.27",
-    "@types/webpack": "^1.12.34",
+    "@types/webpack": "^2.0.0",
     "angular2-router-loader": "^0.3.4",
     "angular2-template-loader": "^0.6.0",
     "awesome-typescript-loader": "^2.2.1",
@@ -109,10 +109,12 @@
     "karma-remap-coverage": "^0.1.1",
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "1.8.0",
+    "node-sass": "^3.13.0",
     "parse5": "^2.2.2",
     "protractor": "^4.0.9",
     "raw-loader": "0.5.1",
     "rimraf": "~2.5.4",
+    "sass-loader": "^4.0.2",
     "script-ext-html-webpack-plugin": "^1.3.2",
     "source-map-loader": "^0.1.5",
     "string-replace-loader": "1.0.5",
@@ -134,10 +136,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/angularclass/angular2-webpack-starter.git"
-  },
-  "bugs": {
-    "url": "https://github.com/angularclass/angular2-webpack-starter/issues"
+    "url": "https://github.com/trinhquocviet/angular2-webpack-starter.git"
   },
   "engines": {
     "node": ">= 4.2.1",
