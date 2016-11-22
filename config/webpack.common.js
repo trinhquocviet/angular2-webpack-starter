@@ -128,6 +128,17 @@ module.exports = function (options) {
           use: ['to-string-loader', 'css-loader']
         },
 
+        /*
+         * to string and SASS loader support for *.scss and *.sass files
+         * Returns file content as string had transpiler
+         */
+        {
+          test: /\.scss$/,
+          exclude: /node_modules/,
+          loaders: ['raw-loader', 'sass-loader'] // sass-loader not scss-loader
+        },
+
+
         /* Raw loader support for *.html
          * Returns file content as string
          *
